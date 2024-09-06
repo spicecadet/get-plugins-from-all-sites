@@ -12,9 +12,6 @@ vared -p "Would you like to include Sandbox sites? (Enter yes or no): " -c SANDB
 PLUGINLIST="plugins-$ORG.txt"
 ENV_ARRAY=()
 
-# EDMUND SA 
-# ORG=dc0a2475-8d01-46db-93e3-45c212b8cce4
-
 echo "\nGot it. Hang tight.\nI'm going to search through sites in $ORG"
 
 if [[ $SANDBOX_SITES == "no" ]]
